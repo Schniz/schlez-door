@@ -6,7 +6,7 @@ var pubnub = require('pubnub').init({
   subscribe_key: process.env.OPEN_DOOR_SUB_KEY
 });
 
-var host = process.env.OPENSHIFT_APP_DNS ? ("https://" + process.env.OPENSHIFT_APP_DNS + ":" + process.env.OPENSHIFT_PORT) : "http://localhost:3000";
+var host = process.env.OPENSHIFT_APP_DNS ? ("https://" + process.env.OPENSHIFT_APP_DNS) : "http://localhost:3000";
 var passport = require('passport');
 var FacebookStrategy = require('passport-facebook').Strategy;
 
