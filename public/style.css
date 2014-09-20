@@ -1,0 +1,24 @@
+html {
+	height: 100vh;
+	width: 100vw;
+}
+body {
+	margin: 0;
+	background-image: url('./bg.png');
+	background-repeat: no-repeat;
+	background-color: #C0DEED;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#login {
+	background-color: rgba(255,255,255,0.4);
+	font-size: 75vw;
+	text-decoration: none;
+	padding: 10vw;
+	border-radius: 100%;
+	color: #333;
+	min-width: 75vw;
+}
